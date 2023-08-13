@@ -1,0 +1,165 @@
+
+* {
+    font-family: "Abyssinica SIL", Serif, serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Abyssinica SIL", serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+h1:hover {
+    color: lightcoral;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.task {
+
+    font-size: 30px;
+    padding: 20px;
+    font-weight: lighter;
+    font-family: DialogInput, serif;
+}
+
+.task:hover {
+    color: lightcoral;
+}
+.delete-btn {
+
+    margin: 20px;
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: lightcoral;
+    cursor: pointer;
+
+}
+
+.delete-btn:hover {
+    background-color: orangered;
+}
+#input-task {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+}
+#add-task-button {
+
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    font-weight: bold;
+    margin-left: 10px;
+    /* Add a shadow on hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+#add-task-button:hover {
+
+    background-color: lightcoral;
+}
+#task-list {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+li label {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+li .task {
+    flex: 1;
+}
+
+li .delete-btn {
+    flex: 0 0 auto;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid salmon;
+    cursor: pointer;
+    margin-left:30px;
+}
+input[type="checkbox"]:checked {
+    background-color: salmon;
+    border-color: salmon;
+}
+
+.footer-decoration {
+    background-color: lightcoral;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100vw;
+    left: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer-text {
+    margin-top: 13px;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: font-size 0.5s;
+}
+
+a:hover {
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.all-done-text {
+    opacity: 0.5;
+    color: lightcoral;
+    font-size: 70px;
+}
+.all-done-container {
+    display: none;
+}
+
