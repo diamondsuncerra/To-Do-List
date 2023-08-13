@@ -26,3 +26,6 @@ This is a simple to-do list webpage implemented using HTML, CSS, and JavaScript.
 - JavaScript
 - localStorage for task persistence
 
+## Future Updates
+
+Will implement a method to change the color theme
