@@ -9,6 +9,7 @@ This is a simple to-do list webpage implemented using HTML, CSS, and JavaScript.
 - Remove tasks from the list.
 - Tasks retain their state and styling even after reloading the page.
 - Stylish and user-friendly interface.
+- Method to change color theme
 
 ## Usage
 
@@ -27,5 +28,5 @@ This is a simple to-do list webpage implemented using HTML, CSS, and JavaScript.
 - localStorage for task persistence
 
 ## Future Updates
-
-Will implement a method to change the color theme
+- Possibility to have multiple lists
+- Cannot delete task that is not marked as finished
