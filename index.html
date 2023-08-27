@@ -6,8 +6,17 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
+<!--
+<nav class="navbar">
+    <ul>
+        <li class="footer-text">Customise</li>
+        <li class="footer-text">About</li>
 
-    <br><br><br>
+    </ul>
+</nav>
+-->
+
+<br><br><br>
     <h1>To-Do List</h1>
 
     <br>
@@ -24,16 +33,22 @@
 
     <ul id="task-list" style="list-style: none">
 
-
     </ul>
 
     <div class="all-done-container">
-        <h1 class="all-done-text">All done for today!</h1>
+        <h1 class="all-done-text theme-element">All done for today!</h1>
     </div>
+    <h1 id="change-color-theme" style="cursor: pointer"> Change color theme</h1>
+      <div class="color-palette">
+    <div class="color-wheel" style="display: none; cursor:pointer;">
+      <!-- JavaScript will generate color options here -->
+    </div>
+  </div>
 
-    <footer class="footer-decoration">
+    <footer class="footer-decoration" id="footer">
        <span class="footer-text">Made with love and passion by <a href="https://github.com/diamondsuncerra" target="_blank"> Cerasela-Nicola Soare
-       </a>       </span>
+       </a>       </span><br>
+       
     </footer>
 
 <script src ="script.js"></script>

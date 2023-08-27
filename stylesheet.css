@@ -1,6 +1,7 @@
 
 * {
     font-family: "Abyssinica SIL", Serif, serif;
+    color: #404040;
 }
 
 h1 {
@@ -26,9 +27,7 @@ h1:hover {
     font-family: DialogInput, serif;
 }
 
-.task:hover {
-    color: lightcoral;
-}
+
 .delete-btn {
 
     margin: 20px;
@@ -82,7 +81,7 @@ h1:hover {
 
 }
 
-li {
+ul[id="task-list"] li {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -163,3 +162,59 @@ a:hover {
     display: none;
 }
 
+.navbar {
+    top: 0;
+    position: fixed;
+    background-color: lightcoral;
+    overflow: hidden;
+    width: 100vw;
+    height: 50px;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+.color-palette {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.color-wheel {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+        from 0deg,
+    red,
+    yellow,
+    lime,
+    cyan,
+    blue,
+    magenta,
+    red
+  );
+    cursor: pointer;
+    transform: rotate(-90deg);
+    transform-origin: center;
+}
+
+.theme-element {
+    
+}
